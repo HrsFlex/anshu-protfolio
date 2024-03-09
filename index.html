@@ -6,9 +6,10 @@
 	<meta name="viewport"
 		content="width=device-width, initial-scale=1.0">
 	<title>HTML Project</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="banner">
 	<!--Header(start)-->
 	<table id="header" border="0"
 		width="100%" cellpadding="0"
@@ -107,39 +108,36 @@
 	<!--Header(end)-->
 
 	<!--Home(start)-->
-	<table id="home" border="1" width="100%"
-		cellpadding="20" cellspacing="0" bgcolor="black">
-		<tr>
-			<td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="90%" align="center">
-					<tr>
-						<td align="center" valign="middle">
-							<h3>
-								<font face="Times New Roman"
-									size="6" color="#BED1CF">
-									Hello!
-								</font>
-							</h3>
+	
 
-							<h2>
-								<font face="Verdana" size="6"
-									color="#E493B3">
-									<!-- Freelance Programmer -->
-								</font>
-							</h2>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-	</table>
+	<div class="content">
+		<h2> I am <span id="text"> </span></h2>
+		<p>Let's Break the Matrix</p>
+		<button >Let's Chat</button>
+
+
+
+	</div>
+	<div class="dayNight">
+		<ion-icon name="moon-outline"></ion-icon>
+		<ion-icon name="sunny-outline"></ion-icon>
+
+
+	</div>
+
+	<h2>
+		<font face="Verdana" size="6"
+			color="#E493B3">
+			<!-- Freelance Programmer -->
+		</font>
+	</h2>
+						
 	<!--Home(end)-->
 
 
 	<!--About(start)-->
 	<table id="about" border="0" width="100%"
-		cellpadding="0" cellspacing="0" bgcolor="black">
+		cellpadding="0" cellspacing="0" class="banner">
 		<tr>
 			<td>
 				<table border="0" cellpadding="15"
@@ -512,7 +510,7 @@
 						<td width="80%" valign="top">
 							<font face="Verdana"
 								color="#4CAF50" size="5">
-								made for information
+								<!-- made for information -->
 							</font>
 						</td>
 
@@ -520,7 +518,7 @@
 							<font face="arial" color="black" size="5">
 								<a href="#header" style="text-decoration:none">
 									<font face="Verdana" color="#4CAF50" size="6">
-										<b>top</b>
+										<!-- <b>top</b> -->
 									</font>
 								</a>
 							</font>
@@ -531,7 +529,11 @@
 		</tr>
 	</table>
 	<!--Footer2(end)-->
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
+<script src="scripts.js"></script>
 </body>
 
 </html>
